@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2905" started-at="2019-06-10T14:08:29Z" finished-at="2019-06-10T14:08:31Z">
+  <suite name="Default suite" duration-ms="5203" started-at="2019-09-29T18:16:41Z" finished-at="2019-09-29T18:16:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2905" started-at="2019-06-10T14:08:29Z" finished-at="2019-06-10T14:08:31Z">
+    <test name="Default test" duration-ms="5203" started-at="2019-09-29T18:16:41Z" finished-at="2019-09-29T18:16:46Z">
       <class name="Form.SignUp">
-        <test-method status="FAIL" signature="Browser()[pri:0, instance:Form.SignUp@643b1d11]" name="Browser" duration-ms="2833" started-at="2019-06-10T14:08:29Z" finished-at="2019-06-10T14:08:31Z">
+        <test-method status="FAIL" signature="Browser()[pri:0, instance:Form.SignUp@643b1d11]" name="Browser" duration-ms="5152" started-at="2019-09-29T18:16:41Z" finished-at="2019-09-29T18:16:46Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: Chrome version must be between 70 and 73
-  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.33 seconds
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.78 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-8VK26DO', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-TH6HUID', ip: '192.168.43.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 70 and 73
-  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.33 seconds
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.78 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-8VK26DO', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-TH6HUID', ip: '192.168.43.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: driver.version: ChromeDriver
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser -->
-        <test-method status="FAIL" signature="TearDown()[pri:0, instance:Form.SignUp@643b1d11]" name="TearDown" duration-ms="3" started-at="2019-06-10T14:08:31Z" finished-at="2019-06-10T14:08:31Z">
+        <test-method status="FAIL" signature="TearDown()[pri:0, instance:Form.SignUp@643b1d11]" name="TearDown" duration-ms="2" started-at="2019-09-29T18:16:46Z" finished-at="2019-09-29T18:16:46Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -120,7 +120,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="FAIL" signature="locator()[pri:0, instance:Form.SignUp@643b1d11]" name="locator" duration-ms="10" started-at="2019-06-10T14:08:31Z" finished-at="2019-06-10T14:08:31Z">
+        <test-method status="FAIL" signature="locator()[pri:0, instance:Form.SignUp@643b1d11]" name="locator" duration-ms="6" started-at="2019-09-29T18:16:46Z" finished-at="2019-09-29T18:16:46Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException

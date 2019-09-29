@@ -15,6 +15,8 @@ public class SignUp {
 
 public void Browser(){
 	driver = new ChromeDriver();
+	//sdfdsf
+	//sfddsfdsf
 	driver.manage().window().maximize();
 	driver.get(URL);
 	System.out.println("Page Title =" + "  " + driver.getTitle());
